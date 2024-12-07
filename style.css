@@ -1,0 +1,6 @@
+body{
+    background-image: linear-gradient(to right, red,pink, rgb(158, 66, 155));
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }

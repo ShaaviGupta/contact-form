@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Demo </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form Demo</h1>
+    <form action="submit.html">
+        <label for="uname"> Enter Name </label><br>
+        <input type="text" id="uname" name="uname"><br>
+        <label for="age"> Enter Age </label><br>
+        <input type="number" id="age" name="age"><br>
+        <label for="color"> Choose Color </label><br>
+        <input type="color" id="color" name="color"><br>
+        <label for="mail">Enter Email Id </label><br>
+        <input type="email" id="email" name="mail"><br>
+        <label for="dob">Enter Date of Birth </label><br>
+        <input type="date" name="dob" id="dob"><br>
+        <textarea name="address" id="address" cols="30" rows = "10"></textarea><br>
+        <label for="gender"> Select Gender </label><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male"> Male </label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female"> Female </label><br>
+        <label for="lang"> Languages known </label><br>
+        <input type="checkbox" name="hindi" id="hindi">
+        <label for="hindi"> Hindi </label><br>
+        <input type="checkbox" name="english" id="english">
+        <label for="english"> English </label><br>
+        <input type="checkbox" name="telugu" id="telugu">
+        <label for="telugu"> Telugu </label><br>
+        <label for="city">City</label><br>
+        <select name="city" id="city">
+            <option value="del">Delhi </option>
+            <option value="mum">Mumbai </option>
+            <option value="chn">Chennai</option>
+            <option value="hyd">Hyderabad </option>
+            <option value="goa">Goa </option>
+            <option value="lko">Lucknow </option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
